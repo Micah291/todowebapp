@@ -24,4 +24,3 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="", placeholder="Enter a todo...",
               on_change=add_todo, max_chars=99, key='new_todo')
-
